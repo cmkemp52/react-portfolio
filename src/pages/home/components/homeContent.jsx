@@ -5,6 +5,7 @@ import github from "../images/github.svg";
 import linkedin from "../images/linkedin.svg";
 import email from "../images/email.svg";
 import pdf from "../images/document.svg";
+import resume from "../files/ChristopherKempResume.pdf";
 
 function HomeContent() {
   const slideIn = useSpring({
@@ -30,11 +31,7 @@ function HomeContent() {
           link="https://www.linkedin.com/in/cmkemp52/"
         />
         <Icon src={email} alt="Email link" link="mailto:cmkemp52@gmail.com" />
-        <Icon
-          src={pdf}
-          alt="Resume link"
-          link="files/ChristopherKempResume.pdf"
-        />
+        <Icon src={pdf} alt="Resume link" link={resume} />
       </div>
     </animated.div>
   );
