@@ -30,8 +30,12 @@ export default function Myvitalog() {
     <InfoDiv>
       <h2>MyVitaLog</h2>
       <nav>
-        <Link href="https://github.com/cmkemp52/MyVitaLog">Github Repo</Link>
-        <Link href="https://www.myvitalog.com">Live Site</Link>
+        <Link href="https://github.com/cmkemp52/MyVitaLog" target="_blank">
+          Github Repo
+        </Link>
+        <Link href="https://www.myvitalog.com" target="_blank">
+          Live Site
+        </Link>
       </nav>
       <div>
         <div>

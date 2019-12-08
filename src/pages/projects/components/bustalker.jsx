@@ -30,8 +30,12 @@ export default function Bustalker() {
     <InfoDiv>
       <h2>Bus Talker</h2>
       <nav>
-        <Link href="https://github.com/cmkemp52/BusTalker">Github Repo</Link>
-        <Link href="https://www.bustalker.com">Live Site</Link>
+        <Link href="https://github.com/cmkemp52/BusTalker" target="_blank">
+          Github Repo
+        </Link>
+        <Link href="https://www.bustalker.com" target="_blank">
+          Live Site
+        </Link>
       </nav>
       <div>
         <div>
