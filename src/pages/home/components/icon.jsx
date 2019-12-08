@@ -8,8 +8,8 @@ const Tcon = Styled.img`
 
 export default function Icon(props) {
   return (
-    <a href={props.link}>
-      <Tcon src={props.src} alt={props.alt} target="_blank" />
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
+      <Tcon src={props.src} alt={props.alt} />
     </a>
   );
 }
