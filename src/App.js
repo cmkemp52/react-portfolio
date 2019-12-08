@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/navbar";
-import Home from "./components/home/home";
-import About from "./components/about/about";
-import Projects from "./components/projects/projects";
+import Navbar from "./pages/navbar";
+import Home from "./pages/home/home";
+import About from "./pages/about/about";
+import Projects from "./pages/projects/projects";
 
 function App() {
   return (

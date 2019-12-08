@@ -7,7 +7,6 @@ const Tcon = Styled.img`
 `;
 
 export default function Icon(props) {
-  console.log(props);
   return (
     <a href={props.link}>
       <Tcon src={props.src} alt={props.alt} />
