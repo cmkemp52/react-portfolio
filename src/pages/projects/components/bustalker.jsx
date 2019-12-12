@@ -13,7 +13,7 @@ const InfoDiv = Styled.div`
     padding: 2%;
   }
   @media (min-width: 550px) {
-    font-size: 0.9em;
+    font-size: 20px;
   }
 `;
 const Link = Styled.a`

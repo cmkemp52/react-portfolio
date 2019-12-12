@@ -9,13 +9,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <div id="wrapper">
-        <div id="App">
-          <Home />
-          <About />
-          <Projects />
-        </div>
-      </div>
+      <Home />
+      <About />
+      <Projects />
     </>
   );
 }

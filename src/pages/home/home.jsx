@@ -9,7 +9,7 @@ const HomeDiv = Styled.div`
   padding: 10px;
 `;
 
-export default function home() {
+export default function Home() {
   return (
     <HomeDiv id="home">
       <HomeContent />

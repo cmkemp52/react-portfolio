@@ -4,16 +4,6 @@ body {
   font-size: 1.4em;
 }
 
-#wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-#App {
-  max-width: 1200px;
-}
-
 #card {
   position: absolute;
   width: 360px;
