@@ -18,7 +18,7 @@ function HomeContent() {
   return (
     <animated.div style={slideIn}>
       <h1>Christopher Kemp</h1>
-      <h3>Web Developer</h3>
+      <h3>Full Stack Javascript Developer</h3>
       <div id="startIcons">
         <Icon
           src={github}
